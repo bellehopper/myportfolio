@@ -9,7 +9,7 @@ links.forEach((link) => {
         if(document.activeElement === link) {
             gsap.to(link, {color: "#385ae0"});
         }
-    //Line movement
+    //Line movement that is movement of line
     const state = Flip.getState(activeNav);
     link.appendChild(activeNav);
     Flip.from(state, {
