@@ -6,7 +6,7 @@
 }
 
 nav {
-    padding: 3rem;
+    padding: 1rem;
     display: flex;
     justify-content: center;
 }
@@ -86,4 +86,186 @@ section {
 .card.is-inactive {
     grid-column: span 2;
 
+}
+
+h2{
+    color:white;
+    text-align:center;
+}
+
+.sect {
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.sectDarkroom{
+    background-image: url("https://stills.org/wp-content/uploads/2022/05/IMG-8605-scaled.jpg");
+    justify-content: center;
+    align-items: center;
+}
+
+.subSect{
+    height:63%;
+    overflow:hidden;
+}
+
+.subSectDarkroom {
+    background-color: darkred;
+}
+
+.sectBackroom{
+    background-image: url("https://cdn.shopify.com/s/files/1/0005/1435/9356/files/darkroom_1_1024x1024.jpg?v=1668786717");
+    justify-content: center;
+    align-items: center;
+}
+
+.sectFilmTable{
+    background-image: url("https://i0.wp.com/casualphotophile.com/wp-content/uploads/2019/05/cory-miller-darkroom-5-of-10.jpg?fit=1920%2C1080&ssl=1");
+    justify-content: center;
+    align-items: center;
+}
+
+/* hanging photos */
+#contentThumbnailPaper {
+    position:relative;
+    width:100%;
+    overflow:hidden;
+    margin-bottom: 10px;
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-vector%2Ftransparent&psig=AOvVaw03kjBMqzw8NOaJd0dq4gLI&ust=1751598347670000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIj8v_Hcn44DFQAAAAAdAAAAABAE");
+    background-repeat: repeat;
+    padding-top: 10px;
+    padding-bottom:10px;
+    border-radius:10px;
+}
+
+#designArea1 {
+    position:absolute;
+    top:10px;
+    left:10px;
+}
+
+#blockDesignArea1{
+    position:absolute;
+    top:10px;
+    left:10px;
+}
+
+#designContainer1{
+    position:relative;
+    overflow: hidden;
+}
+
+#frame1{
+    position:absolute;
+    background-color: #ffffff;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    -khtml-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.stringGear {
+    position: absolute;
+    height: 2px;
+    background-image: url("https://png.pngtree.com/png-vector/20210422/ourmid/pngtree-tool-red-rope-rope-cotton-rope-png-image_3235065.jpg");
+    background-repeat:repeat-x;
+}
+
+.thumbnailPaper{
+    position:relative;
+    width: 186px;
+    height: 263px;
+    margin-right: 40px;
+    float:left;
+}
+
+.thumbnailPaper img
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.thumbnailPaperCaption
+{
+	position: absolute;
+	left: 0px;
+	top: -160px;
+	width: 160px;
+	height: 160px;
+	background-image: url("https://hips.hearstapps.com/hmg-prod/images/lead-image-caption-template-01-646539b8aaf95.jpg?crop=0.502xw:1.00xh;0.259xw,0&resize=640:*");
+}
+
+.thumbnailPaperCaption span
+{
+	color: #86e20d;
+	font-size: 17px;
+	font-weight: 700;
+	text-align: left;
+	margin: 24px;
+	float: left;
+	font-family: arial;
+}
+
+.thumbnailPaperCaptionArea
+{
+	position: absolute;
+	left: 13px;
+	top: 56px;
+	width: 160px;
+	height: 160px;
+	overflow: hidden;
+}
+
+.thumbnailPaperCaption span em
+{
+	font-size: 13px;
+	font-weight: 300;
+}
+
+.thumbnailPaperContainer
+{
+	position: relative;
+	width: 100%;
+	height: 263px;
+	margin-bottom: 40px;
+	top: 0px;
+}
+
+.thumbnailPaperImage
+{
+	position: absolute;
+	left: 13px;
+	top: 56px;
+	width: 160px;
+	height: 160px;
+	overflow: hidden;
+}
+
+.thumbnailPaperNoMargin
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	position: relative;
+	width: 186px;
+	height: 263px;
+	float: left;
+}
+
+.thumbnailPaperNoMargin img
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+#titleStatic
+{
+	position:relative;
+	width: 146px;
+	height: 39px;
+	margin-bottom: 40px;
+	background-image: url("https://preview.redd.it/youtube-thumbnail-swag-v0-xgx5abdvvbze1.jpg?width=640&crop=smart&auto=webp&s=904e2f7148325d7bdefd80ccc6778612cf64be83");
 }
